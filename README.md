@@ -1,2 +1,3 @@
-# MDC118
-Algoritmos e Programação de Computadores I
+# Algoritmos e Programação de Computadores I
+
+Repositório criado para realização de atividades práticas desta disciplina.
