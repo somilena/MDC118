@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main () {
-    int var = 10; // atribuição, o igual (=) no C, você atribui algo a variavel
+    int var = 10; // atribuição, o igual (=) no C significa que estás atribuindo algo a variavel
 
     printf ("%d\n", var);
 
