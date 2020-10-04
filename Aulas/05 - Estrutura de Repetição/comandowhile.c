@@ -44,5 +44,14 @@ int main()
 
 
 
+    /* While infinito */
+    while(0) {
+        printf("Ao infinito e além!\n");
+    }
+
+
+
+
+
     return 0;
 }
