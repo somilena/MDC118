@@ -8,11 +8,11 @@ int main()
     /* Sintaxe while */
     // while (condição) / somente uma condição, repetição indeterminada
 
-    int contador = 0;
-    while (contador < 10)
+    int i = 10;
+    while (i < 10)
     {
-        printf("%d, ", contador);
-        contador++;
+        printf("%d, ", i);
+        i++;
     }
     printf("\n");
 
