@@ -26,7 +26,7 @@ int main() {
         break;
     default: // usado quando não acha nada
         printf("%s\n", "eita, tô lascado!");
-        break;
+        break; // break é usado para interromper
     }
 
 
