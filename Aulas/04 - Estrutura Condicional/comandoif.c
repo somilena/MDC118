@@ -84,7 +84,7 @@ int main () {
 
 
 
-    /* ifs alinhados */
+    /* ifs aninhados */
     float falta = 75;
     if (nota >= 5) 
     {
