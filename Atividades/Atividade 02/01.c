@@ -1,10 +1,10 @@
 /* 1. Escrever um programa em C que determine se um
  número é par ou impar. */
 
-
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
     int x;
 
@@ -19,7 +19,7 @@ int main () {
     {
         printf("É par!\n");
     }
-    else 
+    else
     {
         printf("É impar!\n");
     }
