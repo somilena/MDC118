@@ -9,7 +9,7 @@ int main()
     int fatorial;
     int numero;
 
-    printf("Qual número você deseja calcular para fatorial? ");
+    printf("Qual número inteiro você deseja calcular para fatorial? ");
     scanf("%d", &numero);
 
     for (fatorial = 1; numero > 1; numero--)
