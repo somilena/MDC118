@@ -3,10 +3,10 @@ sobre um valor com base na escala: até de 100.00 aplica
 1%; de 100.01 a 500.00 aplica 5%; acima de 500.00 aplica
 10%.*/
 
-
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
     float valor;
     float desconto;
@@ -16,7 +16,6 @@ int main () {
     printf("Informe o valor para calcular o desconto: ");
     scanf("%f", &valor);
     printf("                ~~~~~~~~~~\n");
-
 
     if (valor <= 100)
     {
@@ -40,11 +39,10 @@ int main () {
         preco = valor - desconto;
         printf("O preço com o desconto fica R$ %.2f reais.\n", preco);
         printf("                ~~~~~~~~~~\n");
-        printf ("Desconto de 10%% aplicado!");
+        printf("Desconto de 10%% aplicado!");
     }
 
     printf("\n");
-    
 
     return 0;
 }
