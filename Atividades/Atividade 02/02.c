@@ -41,7 +41,6 @@ int main()
         printf("                ~~~~~~~~~~\n");
         printf("Desconto de 10%% aplicado!");
     }
-
     printf("\n");
 
     return 0;
