@@ -6,8 +6,12 @@ múltiplos de 3, entre 1 e 100. */
 
 int main () {
 
-
-
+    
+    for (int x = 3; x <= 100; x = x + 3)
+    {
+        printf("%d  ", x);
+    }
+    printf("\n");
 
     return 0;
 }
