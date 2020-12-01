@@ -3,12 +3,24 @@ meses de um ano definidos por uma enumeração */
 
 #include <stdio.h>
 
-enum meses {jan=1, fev, março, abril, maio, junho, julho, agos, set, out, nov, dez};
-
-
-int main ()
+enum meses
 {
+    jan = 1,
+    fev,
+    março,
+    abril,
+    maio,
+    junho,
+    julho,
+    agos,
+    set,
+    out,
+    nov,
+    dez
+};
 
+int main()
+{
 
     int mes;
 
@@ -16,7 +28,6 @@ int main ()
     scanf("%d", &mes);
     printf("\n\t          ~~~~~~~~~~~~~~~~\n");
     printf("\t          ~~~~~~~~~~~~~~~~\n");
-
 
     switch (mes)
     {
@@ -56,12 +67,11 @@ int main ()
     case dez:
         printf("\n\tÉ Dezembbro! Feliz Natal!");
         break;
-    
+
     default:
         break;
     }
     printf("\n\n");
-
 
     return 0;
 }
