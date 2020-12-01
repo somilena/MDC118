@@ -2,17 +2,14 @@
 e determine se ela é uma letra, um dígito 
 ou um caractere especial. */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 
-
-int main ()
+int main()
 {
 
     char tecla;
-
 
     printf("Digite um caractere especial, um dígito ou uma letra: ");
     scanf("%c", &tecla);
@@ -29,7 +26,6 @@ int main ()
     {
         printf("É um caractere especial.\n");
     }
-
 
     return 0;
 }
