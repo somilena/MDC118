@@ -17,16 +17,15 @@ int main()
     maior = numero;
     menor = numero;
 
-
-    for(a=1; a<10; a++)
+    for (a = 1; a < 10; a++)
     {
-    printf("\n\tDigite o %d numero inteiro: ", a + 1);
-    scanf("%i", &numero);
+        printf("\n\tDigite o %d numero inteiro: ", a + 1);
+        scanf("%i", &numero);
 
-    if (numero > maior)
-        maior = numero;
-    else if (numero < menor)
-        menor = numero;
+        if (numero > maior)
+            maior = numero;
+        else if (numero < menor)
+            menor = numero;
     }
 
     printf("                ~~~~~~~~~~~~~\n");
