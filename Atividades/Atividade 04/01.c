@@ -1,20 +1,18 @@
 /* Escrever um programa em C que leia dois 
 números inteiros e determine qual é o menor. */
 
-
 #include <stdio.h>
 
-int main ()
+int main()
 {
 
     int primeiro_numero;
     int segundo_numero;
 
-
-    printf ("Digite o primeiro número inteiro: ");
+    printf("Digite o primeiro número inteiro: ");
     scanf("%d", &primeiro_numero);
     printf("                    ~~~~~\n");
-    printf ("Digite o segundo número inteiro: ");
+    printf("Digite o segundo número inteiro: ");
     scanf("%d", &segundo_numero);
 
     printf("            ~~~~~~~~~~~~~~~~~~\n");
@@ -31,10 +29,6 @@ int main ()
     {
         printf("Os dois números são iguais!\n");
     }
-    
-
-
-
 
     return 0;
 }
