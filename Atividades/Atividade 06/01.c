@@ -3,9 +3,7 @@ estrutura contendo dia, mes e ano e imprima a
 data tanto no formato BR (dd/mm/aaaa) quanto 
 no formato US (mm/dd/aaaa). */
 
-
 #include <stdio.h>
-
 
 struct data_t
 {
@@ -14,9 +12,7 @@ struct data_t
     int ano;
 };
 
-
-
-int main ()
+int main()
 {
 
     struct data_t calendario;
@@ -30,12 +26,9 @@ int main ()
     printf("\tDetermine o ano: ");
     scanf("%d", &calendario.ano);
 
-
     printf("\n\tA data no formato brasileiro (BR): \n\t(%d/%d/%d)\n", calendario.dia, calendario.mes, calendario.ano);
 
-
-    printf("\n\tA data no formato americano (US): \n\t(%d/%d/%d)\n\n", calendario.mes, calendario.dia, calendario.ano); 
-
+    printf("\n\tA data no formato americano (US): \n\t(%d/%d/%d)\n\n", calendario.mes, calendario.dia, calendario.ano);
 
     return 0;
 }
