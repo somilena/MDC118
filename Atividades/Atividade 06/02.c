@@ -3,9 +3,7 @@
 (inteiro longo), e depois imprima todos os 
 contatos no formato "nome - telefone". */
 
-
 #include <stdio.h>
-
 
 struct contato
 {
@@ -13,12 +11,11 @@ struct contato
     unsigned int telefone;
 };
 
-
-int main ()
+int main()
 {
     struct contato lista[10];
 
-    for(int i=0; i<10; i++)
+    for (int i = 0; i < 10; i++)
     {
 
         printf("\n\tNome: (somente letras!)\n");
@@ -30,13 +27,11 @@ int main ()
         getchar();
 
         printf("            ~~~~~~\n");
-
     }
-
 
     printf("\n\t<LISTA DOS CONTATOS>\n");
 
-    for (int i=0; i<10; i++)
+    for (int i = 0; i < 10; i++)
     {
         printf("\n\t%s - %d\n", lista[i].nome, lista[i].telefone);
     }
